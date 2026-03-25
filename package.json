@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "api": "node server.js",
     "start": "node server.js",
-    "render-build": "npm install && npm run build"
+    "render-build": "npm install --include=dev && npm run build"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
